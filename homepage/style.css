@@ -1,2 +1,54 @@
-h1{color:pink;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+body{
+  background-color: #5f939a;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins";
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+i {
+  opacity: 0.7;
+}
+
+input {
+  border-radius: 4px;
+  color: grey;
+  padding: 4px 8px;
+}
+
+a{ 
+  display: inline-block;
+}
+
+.container{
+  padding: 0px 10%;
+  margin: 0px auto;
+}
+
+.bg-snow{
+  background-image:
+    url('https://img.freepik.com/free-photo/cup-of-coffee-with-marshmallow-and-thermos-in-snow_106029-1105.jpg?size=626&ext=jpg');
+   background-size: cover;
+}
+
+.bg-forest{
+  background-image:
+    url('https://image.freepik.com/photos-gratuite/thermos-debout-buche-bois-dans-foret-espace-pour-texte_117255-653.jpg');
+   background-size: cover;
+}
+
+.bg-beach{
+  background-image:
+    url('https://thumbs.dreamstime.com/b/thermos-de-thé-et-un-doux-écossais-sur-la-plage-coucher-du-soleil-d-chaud-une-sable-tôt-le-matin-au-lever-172523345.jpg');
+   background-size: cover;
+}
+
+.bg-city{
+  background-image:          url('https://cdn.ambientedirect.com/chameleon/mediapool/thumbs/5/34/Alessi_Nomu-Thermoskanne_2000x2000-ID1903760-1698befea0894526a2b466920fe1be1c.jpg');
+   background-size: cover;
 }
